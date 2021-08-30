@@ -192,7 +192,7 @@
                                     "inputs": {
                                         "body": {
                                             "body": {
-                                                "content": "<p>The investigation package is ready for download at @{body('Actions_-_Get_investigation_package_download_URI')?['value']}</p>",
+                                                "content": "<p>The investigation package is ready for download at @{body('Actions_-_Get_investigation_package_download_URI')?['value']}</p>"
                                                 "contentType": "html"
                                             },
                                             "subject": "MDATP Investgation Package for @{triggerBody()?['object']?['properties']?['incidentNumber']} is Ready"
